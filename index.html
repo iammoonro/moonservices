@@ -14,7 +14,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: auto;
       flex-direction: column;
       text-align: center;
       padding: 2rem;
@@ -32,6 +32,16 @@
     p {
       font-size: 1.2rem;
       margin-bottom: 1rem;
+      max-width: 800px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+    ul li::before {
+      content: "✨ ";
+      color: #525eff;
     }
     a.link {
       color: #525eff;
@@ -42,8 +52,7 @@
       text-decoration: underline;
     }
     footer {
-      position: absolute;
-      bottom: 20px;
+      margin-top: 3rem;
       font-size: 0.8rem;
       color: #888;
     }
@@ -57,7 +66,26 @@
   <p>Let's make your server shine ✨</p>
 
   <h2>Services</h2>
-  <p>Discord Server & Bot Service & More</p>
+  <p><strong>🤖 Custom Discord Bot Services</strong><br>
+    Bring your server to life with a smart, tailor-made bot. We build bots that manage your community, boost engagement, and keep things running smoothly — all with user-friendly tools and clean design.</p>
+  <ul>
+    <li>Welcome messages & auto roles</li>
+    <li>Reaction roles</li>
+    <li>Ticketing system</li>
+    <li>Suggestion board with upvotes</li>
+    <li>Giveaways & prize draws</li>
+    <li>Invite leaderboard</li>
+    <li>24/7 hosting & support</li>
+  </ul>
+  <p><strong>🚀 Discord Server Setup + Bot Integration</strong><br>
+    Need a fully built Discord server? We’ll structure your channels, set up roles, and integrate a custom bot — all tailored to your community’s style and needs.</p>
+  <ul>
+    <li>Structured channels & clean layout</li>
+    <li>Role system & access control</li>
+    <li>Bot integration</li>
+    <li>Custom design, emojis & vibe</li>
+    <li>Ongoing support & updates</li>
+  </ul>
 
   <h2>Contact</h2>
   <p><a class="link" href="https://discord.gg/B27FqGJpUN" target="_blank">Join Our Discord</a></p>
